@@ -1,0 +1,391 @@
+[10-Jan-2024 07:01:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[11-Jan-2024 07:03:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[17-Jan-2024 06:53:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[16-Feb-2024 02:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[17-Feb-2024 07:03:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1525): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[19-Feb-2024 20:49:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[27-Feb-2024 00:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[28-Feb-2024 20:47:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[08-Mar-2024 20:47:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[11-Mar-2024 20:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1528): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[20-Mar-2024 20:47:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[22-Mar-2024 08:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[26-Mar-2024 20:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(203): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Apr-2024 08:31:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[10-Apr-2024 20:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[12-Apr-2024 08:31:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[16-Apr-2024 08:29:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[19-Apr-2024 08:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[23-Apr-2024 09:28:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[25-Apr-2024 08:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[27-Apr-2024 08:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[01-May-2024 08:29:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881
+[07-May-2024 20:47:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/neogaine.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfIssues.php(489): wp_mail()
+#5 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(396): wfIssues->emailNewIssues()
+#6 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScanEngine.php(225): wfScanEngine->emailNewIssues()
+#7 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wfScan.php(211): wfScanEngine->go()
+#8 /home/websit19/neogaine.id/wp-content/plugins/wordfence/lib/wordfenceClass.php(1524): wfScan::wfScanMain()
+#9 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(324): wordfence::ajax_doScan_callback()
+#10 /home/websit19/neogaine.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/websit19/neogaine.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/websit19/neogaine.id/wp-admin/admin-ajax.php(207): do_action()
+#13 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/PHPMailer/PHPMailer.php on line 881

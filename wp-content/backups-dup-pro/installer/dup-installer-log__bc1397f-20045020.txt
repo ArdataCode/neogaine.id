@@ -1,0 +1,1774 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 06:23:47
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.4.32                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/home/kome9172/public_html/neogaine.id"
+REQUEST URL_________: "https://neogaine.id"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+INSTALL MODES_______: CLASSIC
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/kome9172/public_html/neogaine.id"
+URL_NEW_____________: "https://neogaine.id"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/kome9172/public_html/neogaine.id/20230220_joinresellerneogaine_[HASH]_20230220045020_archive.zip"
+ARCHIVE SIZE________: 82.39MB
+CREATED_____________: 2023-02-20 04:50:20
+WP VERSION__________: 6.1.1
+DUP VERSION_________: 4.5.9.1
+LICENSE_____________: unlicensed
+DB VERSION__________: 10.4.20
+DB FILE SIZE________: 32.23MB
+DB TABLES___________: 25
+DB ROWS_____________: 10289
+URL HOME____________: https://neogaine.id
+URL CORE____________: https://neogaine.id
+URL CONTENT_________: https://neogaine.id/wp-content
+URL UPLOAD__________: https://neogaine.id/wp-content/uploads
+URL PLUGINS_________: https://neogaine.id/wp-content/plugins
+URL MU PLUGINS______: https://neogaine.id/wp-content/mu-plugins
+URL THEMES__________: https://neogaine.id/wp-content/themes
+PATH HOME___________: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html
+PATH ABS____________: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html
+PATH WPCONFIG_______: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html
+PATH WPCONTENT______: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html/wp-content
+PATH UPLOADS________: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html/wp-content/uploads
+PATH PLUGINS________: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "neogaine.id/"
+
+PLUGINS
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:false]  Duplicator
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:elementskit-lite/elementskit-lite.php             ][ON:true ]  ElementsKit Lite
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:true ]  Envato Elements
+PLUGIN [SLUG:malcare-security/malcare.php                      ][ON:true ]  MalCare WordPress Security Plugin - Malware Scanner, Cleaner, Security Firewall
+PLUGIN [SLUG:really-simple-ssl/rlrsssl-really-simple-ssl.php   ][ON:true ]  Really Simple SSL
+PLUGIN [SLUG:skyboot-custom-icons-for-elementor/skyboot-custom-icons-for-elementor.php][ON:true ]  Skyboot Custom Icons for Elementor - Elementor Icons library
+PLUGIN [SLUG:wp-media-folder/wp-media-folder.php               ][ON:true ]  WP Media folder
+PLUGIN [SLUG:wp-media-folder-addon/wp-media-folder-addon.php   ][ON:true ]  WP Media folder Addon
+PLUGIN [SLUG:wp-media-folder-gallery-addon/wp-media-folder-gallery-addon.php][ON:true ]  WP Media folder Gallery Addon
+
+********************************************************************************
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php|LINE:76]
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/ctrls/ctrl.base.php:229][DELTA:   0.06733]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php|LINE:76]
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/ctrls/ctrl.base.php:229][DELTA:   0.06088]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00029]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/kome9172/public_html/neogaine.id"
+--------------------------------------
+LOG-TIME[DELTA:   0.01626]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00404]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00076]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01387]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+[PHP ERR][E_WARNING] MSG:mysqli_real_connect(): (HY000/1045): Access denied for user 'kome9172_neoo'@'localhost' (using password: YES) [CODE:2|FILE:/home/kome9172/public_html/neogaine.id/dup-installer/classes/database/class.db.php|LINE:53]
+DATABASE CONNECTION ERROR: Access denied for user 'kome9172_neoo'@'localhost' (using password: YES)[ERRNO:1045]
+
+INSTALLER ERROR:
+Unable to connect with the following parameters:
+
+HOST: "localhost"
+DBUSER: "kome9172_neoo"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'kome9172_neoo'@'localhost' (using password: YES)
+
+
+      TEST "Host Connection" EXCEPTION: Unable to connect with the following parameters:<br/>HOST: "localhost"
+DBUSER: "kome9172_neoo"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'kome9172_neoo'@'localhost' (using password: YES)[CODE:0]
+	FILE:/home/kome9172/public_html/neogaine.id/dup-installer/src/Utils/Log/Log.php[405]
+	TRACE:
+#0 /home/kome9172/public_html/neogaine.id/dup-installer/classes/database/class.db.functions.php(110): Duplicator\Installer\Utils\Log\Log::error('Unable to conne...')
+#1 /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.database.service.php(70): DUPX_DB_Functions->dbConnection(Array)
+#2 /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/database-tests/class.validation.test.db.connection.php(26): DUPX_Validation_database_service->getDbConnection()
+#3 /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.abstract.item.php(46): DUPX_Validation_test_db_connection->runTest()
+#4 /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.manager.php(239): DUPX_Validation_abstract_item->test(true)
+#5 /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.manager.php(212): DUPX_Validation_manager->runTests()
+#6 /home/kome9172/public_html/neogaine.id/dup-installer/ctrls/classes/class.ctrl.ajax.php(171): DUPX_Validation_manager->getValidateData()
+#7 /home/kome9172/public_html/neogaine.id/dup-installer/ctrls/classes/class.ctrl.ajax.php(96): DUPX_Ctrl_ajax::actions('validate')
+#8 /home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php(47): DUPX_Ctrl_ajax::controller()
+#9 {main}
+
+LOG-TIME[DELTA:   0.00210]  MESSAGE:TEST "Host Connection" RESULT: failed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Version" RESULT: skip
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Engine Support" RESULT: skip
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database GTID Mode" RESULT: skip
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Visibility" RESULT: skip
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Multiple WP Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php|LINE:76]
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/ctrls/ctrl.base.php:229][DELTA:   0.03722]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/kome9172/public_html/neogaine.id"
+--------------------------------------
+LOG-TIME[DELTA:   0.01170]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00226]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00048]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01762]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00099]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00297]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00049]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00128]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Privileges: User Visibility" RESULT: failed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Multiple WP Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php|LINE:76]
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/ctrls/ctrl.base.php:229][DELTA:   0.05261]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/kome9172/public_html/neogaine.id"
+--------------------------------------
+LOG-TIME[DELTA:   0.01698]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00480]  MESSAGE:TEST "Wordpress Configuration" RESULT: passed
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00091]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01666]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00108]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00300]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00125]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00090]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/kome9172/public_html/neogaine.id/dup-installer/classes/database/class.db.php:678] MSG: SELECT command denied to user 'kome9172_neoo'@'localhost' for table `mysql`.`user`
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'kome9172_neoo' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.database.service.php[984]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.manager.php[239]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/kome9172/public_html/neogaine.id/dup-installer/classes/validation/class.validation.manager.php[212]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/kome9172/public_html/neogaine.id/dup-installer/ctrls/classes/class.ctrl.ajax.php[171]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/kome9172/public_html/neogaine.id/dup-installer/ctrls/classes/class.ctrl.ajax.php[96]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php[47]
+
+LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02036]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00132]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00191]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00132]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/kome9172/public_html/neogaine.id"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:26:32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Join Reseller NeoGaine"
+HOME URL NEW________: "https://neogaine.id"
+SITE URL NEW________: "https://neogaine.id"
+CONTENT URL NEW_____: "https://neogaine.id/wp-content"
+UPLOAD URL NEW______: "https://neogaine.id/wp-content/uploads"
+PLUGINS URL NEW_____: "https://neogaine.id/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://neogaine.id/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/kome9172/public_html/neogaine.id"
+SITE PATH NEW_______: "/home/kome9172/public_html/neogaine.id"
+CONTENT PATH NEW____: "/home/kome9172/public_html/neogaine.id/wp-content"
+UPLOAD PATH NEW_____: "/home/kome9172/public_html/neogaine.id/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/kome9172/public_html/neogaine.id/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/kome9172/public_html/neogaine.id/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/kome9172/public_html/neogaine.id/dup-installer"
+	FILE: "/home/kome9172/public_html/neogaine.id/20230220_joinresellerneogaine_[HASH]_20230220045020_installer-backup.php"
+	FILE: "/home/kome9172/public_html/neogaine.id/20230220_joinresellerneogaine_[HASH]_20230220045020_archive.zip"
+	FILE: "/home/kome9172/public_html/neogaine.id/installer.php"
+	FILE: "/home/kome9172/public_html/neogaine.id/dup-installer-bootlog__bc1397f-20045020.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230220_joinresellerneogaine_[HASH]_20230220045020_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 14979
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 06:26:36 - RUNTIME: 4.4628 sec. - Files processed: 14,149 of 14,149
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 06:26:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_bv_fw_requests"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bv_fw_requests]
+TABLE "wp_bv_ip_store"__________________________________[ROWS:    5386] [EXTRACT|REPLACE] [INST NAME: wp_bv_ip_store]
+TABLE "wp_bv_lp_requests"_______________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_bv_lp_requests]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_submissions"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_ju_queue"_____________________________________[ROWS:    1843] [EXTRACT|REPLACE] [INST NAME: wp_ju_queue]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     335] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    2398] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     328] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      57] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wpfm_backup"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpfm_backup]
+TABLE "wp_wpmf_s3_queue"________________________________[ROWS:      44] [EXTRACT|REPLACE] [INST NAME: wp_wpmf_s3_queue]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.5.18 -- Build Server: 10.4.20
+FILE SIZE:	dup-database__[HASH].sql (24.23MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`kome9172_neoo`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	208
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_bv_fw_requests"_______________________________[ROWS:     0]
+TABLE "wp_bv_ip_store"__________________________________[ROWS:  5386]
+TABLE "wp_bv_lp_requests"_______________________________[ROWS:     2]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     6]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     1]
+TABLE "wp_e_submissions"________________________________[ROWS:     0]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     0]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     0]
+TABLE "wp_ju_queue"_____________________________________[ROWS:  1843]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   335]
+TABLE "wp_postmeta"_____________________________________[ROWS:  2398]
+TABLE "wp_posts"________________________________________[ROWS:   328]
+TABLE "wp_term_relationships"___________________________[ROWS:     8]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     7]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     7]
+TABLE "wp_usermeta"_____________________________________[ROWS:    57]
+TABLE "wp_users"________________________________________[ROWS:     4]
+TABLE "wp_wpfm_backup"__________________________________[ROWS:     0]
+TABLE "wp_wpmf_s3_queue"________________________________[ROWS:    44]
+
+INSERT DATA RUNTIME: 2.0816 sec.
+STEP-2 COMPLETE @ 06:26:38 - RUNTIME: 2.0816 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html REPLACE: /home/kome9172/public_html/neogaine.id [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:26:39
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 499M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    44]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_bv_fw_requests"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bv_ip_store"__________________________________[ROWS:  5386][PG:   6][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bv_lp_requests"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_bv_lp_requests][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_events][0]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ju_queue"_____________________________________[ROWS:  1843][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_ju_queue][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_ju_queue][1]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   291][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2398][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   328][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     8][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpmf_s3_queue"________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/qxtkmvpdqe/public_html" => "/home/kome9172/public_html/neogaine.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmf_s3_queue][0]
+--------------------------------------
+SCANNED:	Tables:25 	|	 Rows:4989 	|	 Cells:33698 
+UPDATED:	Tables:2 	|	 Rows:47 	|	 Cells:47 
+ERRORS:		0 
+RUNTIME:	0.476400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/kome9172/public_html/neogaine.id/wp-config.php
+New .htaccess file created:/home/kome9172/public_html/neogaine.id/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "https://neogaine.id"
+	UPDATE DB_NAME ""kome9172_NEOGAINE""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "false"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+UPDATE OPTION home ON TABLE wp_options
+UPDATE OPTION siteurl ON TABLE wp_options
+UPDATE OPTION duplicator_pro_exe_safe_mode ON TABLE wp_options
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 1 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/kome9172/public_html/neogaine.id"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:26:39 - RUNTIME: 0.6795 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/src/Core/Bootstrap.php:75] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/kome9172/public_html/neogaine.id/dup-installer/main.installer.php|LINE:76]
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/kome9172/public_html/neogaine.id/wp-login.php
+E_NOTICE Constant AUTH_KEY already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[77]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant SECURE_AUTH_KEY already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[78]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant LOGGED_IN_KEY already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[79]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant NONCE_KEY already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[80]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant AUTH_SALT already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[81]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant SECURE_AUTH_SALT already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[82]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant LOGGED_IN_SALT already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[83]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_NOTICE Constant NONCE_SALT already defined
+	FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[84]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[375]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[375]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[375]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[375]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[82]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[105]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[132]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[549]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[140]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[484]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[184]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(484) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[487]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[184]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Function create_function() is deprecated
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[491]
+	--- TRACE ---
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[184]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/kome9172/public_html/neogaine.id/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-content/wp_test_script_bc1397f-20045020.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php(491) : runtime-created function[1]
+	FUNCTION: __lambda_func                 FILE: /home/kome9172/public_html/neogaine.id/wp-includes/plugin.php[493]
+	FUNCTION: do_action                     FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[531]
+	FUNCTION: register_taxonomy             FILE: /home/kome9172/public_html/neogaine.id/wp-includes/taxonomy.php[184]
+	FUNCTION: create_initial_taxonomies     FILE: /home/kome9172/public_html/neogaine.id/wp-settings.php[387]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-config.php[90]
+	FUNCTION: require_once                  FILE: /home/kome9172/public_html/neogaine.id/wp-load.ph====================================
+LOG-TIME[/home/kome9172/public_html/neogaine.id/dup-installer/ctrls/ctrl.base.php:229][DELTA:   0.11425]  MESSAGE:END RENDER PAGE

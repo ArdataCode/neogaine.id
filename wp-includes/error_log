@@ -1,0 +1,289 @@
+[28-Mar-2024 05:27:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/websit19/neogaine.id/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/block-patterns.php on line 9
+[28-Mar-2024 05:27:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/cache.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/cache.php on line 12
+[28-Mar-2024 05:27:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-IXR.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-IXR.php on line 42
+[28-Mar-2024 05:27:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-feed.php on line 10
+[28-Mar-2024 05:27:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-http.php on line 11
+[28-Mar-2024 05:27:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-json.php on line 2
+[28-Mar-2024 05:28:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-oembed.php on line 12
+[28-Mar-2024 05:28:01 Asia/Jakarta] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/websit19/neogaine.id/wp-includes/class-requests.php on line 24
+[28-Mar-2024 05:28:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-simplepie.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-simplepie.php on line 5
+[28-Mar-2024 05:28:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-smtp.php on line 6
+[28-Mar-2024 05:28:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-snoopy.php on line 6
+[28-Mar-2024 05:28:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/websit19/neogaine.id/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-walker-category-dropdown.php on line 17
+[28-Mar-2024 05:28:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/websit19/neogaine.id/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-walker-category.php on line 17
+[28-Mar-2024 05:28:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/websit19/neogaine.id/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-walker-comment.php on line 17
+[28-Mar-2024 05:28:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/websit19/neogaine.id/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-walker-nav-menu.php on line 17
+[28-Mar-2024 05:28:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/websit19/neogaine.id/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-walker-page-dropdown.php on line 17
+[28-Mar-2024 05:28:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/websit19/neogaine.id/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-walker-page.php on line 17
+[28-Mar-2024 05:28:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-wp-customize-control.php:709
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-customize-control.php on line 709
+[28-Mar-2024 05:28:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-wp-customize-panel.php:411
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-customize-panel.php on line 411
+[28-Mar-2024 05:28:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-wp-customize-section.php:412
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-customize-section.php on line 412
+[28-Mar-2024 05:28:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-wp-customize-setting.php:964
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-customize-setting.php on line 964
+[28-Mar-2024 05:28:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class-wp-feed-cache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-feed-cache.php on line 11
+[28-Mar-2024 05:28:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "IXR_Client" not found in /home/websit19/neogaine.id/wp-includes/class-wp-http-ixr-client.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-http-ixr-client.php on line 9
+[28-Mar-2024 05:28:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WpOrg\Requests\Hooks" not found in /home/websit19/neogaine.id/wp-includes/class-wp-http-requests-hooks.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-http-requests-hooks.php on line 18
+[28-Mar-2024 05:28:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_HTTP_Response" not found in /home/websit19/neogaine.id/wp-includes/class-wp-http-requests-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-http-requests-response.php on line 17
+[28-Mar-2024 05:28:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-http.php on line 11
+[28-Mar-2024 05:28:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/websit19/neogaine.id/wp-includes/class-wp-image-editor-gd.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-image-editor-gd.php on line 16
+[28-Mar-2024 05:28:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/websit19/neogaine.id/wp-includes/class-wp-image-editor-imagick.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-image-editor-imagick.php on line 16
+[28-Mar-2024 05:28:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/websit19/neogaine.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-scripts.php on line 18
+[28-Mar-2024 05:28:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie_File" not found in /home/websit19/neogaine.id/wp-includes/class-wp-simplepie-file.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-simplepie-file.php on line 19
+[28-Mar-2024 05:28:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie_Sanitize" not found in /home/websit19/neogaine.id/wp-includes/class-wp-simplepie-sanitize-kses.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-simplepie-sanitize-kses.php on line 19
+[28-Mar-2024 05:28:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/websit19/neogaine.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-styles.php on line 18
+[28-Mar-2024 05:28:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Text_Diff_Renderer_inline" not found in /home/websit19/neogaine.id/wp-includes/class-wp-text-diff-renderer-inline.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-text-diff-renderer-inline.php on line 17
+[28-Mar-2024 05:28:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Text_Diff_Renderer" not found in /home/websit19/neogaine.id/wp-includes/class-wp-text-diff-renderer-table.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-text-diff-renderer-table.php on line 17
+[28-Mar-2024 05:28:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Session_Tokens" not found in /home/websit19/neogaine.id/wp-includes/class-wp-user-meta-session-tokens.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-user-meta-session-tokens.php on line 17
+[28-Mar-2024 05:28:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "IXR_Server" not found in /home/websit19/neogaine.id/wp-includes/class-wp-xmlrpc-server.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-xmlrpc-server.php on line 24
+[28-Mar-2024 05:28:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class.wp-dependencies.php on line 11
+[28-Mar-2024 05:28:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class.wp-scripts.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class.wp-scripts.php on line 11
+[28-Mar-2024 05:28:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/class.wp-styles.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class.wp-styles.php on line 11
+[28-Mar-2024 05:28:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/compat.php:338
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/compat.php on line 338
+[28-Mar-2024 05:28:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/date.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/date.php on line 11
+[28-Mar-2024 05:28:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/websit19/neogaine.id/wp-includes/default-filters.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/default-filters.php on line 22
+[28-Mar-2024 05:28:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/default-widgets.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/default-widgets.php on line 11
+[28-Mar-2024 05:28:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/embed-template.php on line 11
+[28-Mar-2024 05:28:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/websit19/neogaine.id/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/feed-atom-comments.php on line 8
+[28-Mar-2024 05:28:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/websit19/neogaine.id/wp-includes/feed-atom.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/feed-atom.php on line 8
+[28-Mar-2024 05:28:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/websit19/neogaine.id/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/feed-rdf.php on line 8
+[28-Mar-2024 05:28:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/websit19/neogaine.id/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/feed-rss.php on line 8
+[28-Mar-2024 05:28:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/websit19/neogaine.id/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/feed-rss2-comments.php on line 8
+[28-Mar-2024 05:28:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/websit19/neogaine.id/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/feed-rss2.php on line 8
+[28-Mar-2024 05:28:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/functions.php on line 8
+[28-Mar-2024 05:28:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/locale.php on line 11
+[28-Mar-2024 05:28:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/websit19/neogaine.id/wp-includes/media.php:2317
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/media.php on line 2317
+[28-Mar-2024 05:28:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/meta.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/meta.php on line 13
+[28-Mar-2024 05:28:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/ms-blogs.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/ms-blogs.php on line 11
+[28-Mar-2024 05:28:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/websit19/neogaine.id/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/ms-default-filters.php on line 16
+[28-Mar-2024 05:28:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/ms-settings.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/ms-settings.php on line 35
+[28-Mar-2024 05:28:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/nav-menu-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/nav-menu-template.php on line 11
+[28-Mar-2024 05:28:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/registration-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/registration-functions.php on line 9
+[28-Mar-2024 05:28:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/registration.php on line 9
+[28-Mar-2024 05:28:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/rss.php on line 19
+[28-Mar-2024 05:28:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/script-loader.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/script-loader.php on line 20
+[28-Mar-2024 05:28:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/session.php on line 9
+[28-Mar-2024 05:28:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/websit19/neogaine.id/wp-includes/spl-autoload-compat.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/spl-autoload-compat.php on line 14
+[28-Mar-2024 05:28:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/websit19/neogaine.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/template-canvas.php on line 12
+[28-Mar-2024 05:29:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function wp_using_themes() in /home/websit19/neogaine.id/wp-includes/template-loader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/template-loader.php on line 7
+[28-Mar-2024 05:29:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/websit19/neogaine.id/wp-includes/update.php:1149
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/update.php on line 1149
+[28-Mar-2024 05:29:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/websit19/neogaine.id/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/vars.php on line 23
+[28-Mar-2024 05:29:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/wp-diff.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/wp-diff.php on line 13
+[06-May-2024 13:25:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/neogaine.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-http.php on line 11
+[06-May-2024 13:26:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/websit19/neogaine.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-scripts.php on line 18
+[06-May-2024 13:26:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/websit19/neogaine.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/class-wp-styles.php on line 18
+[06-May-2024 13:26:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/websit19/neogaine.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/neogaine.id/wp-includes/template-canvas.php on line 12

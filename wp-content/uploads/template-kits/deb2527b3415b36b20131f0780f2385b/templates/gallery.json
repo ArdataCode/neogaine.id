@@ -1,0 +1,490 @@
+{
+    "version": "0.4",
+    "title": "Gallery",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "7da91fe9",
+            "settings": {
+                "background_background": "classic",
+                "background_overlay_background": "classic",
+                "background_overlay_image": {
+                    "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/greenhouse-in-the-garden.jpg",
+                    "id": 422,
+                    "alt": "Greenhouse in the garden",
+                    "source": "library"
+                },
+                "background_overlay_position": "center center",
+                "background_overlay_attachment": "fixed",
+                "background_overlay_repeat": "no-repeat",
+                "background_overlay_size": "cover",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.40000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                },
+                "shape_divider_bottom": "curve",
+                "shape_divider_bottom_height": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                },
+                "shape_divider_bottom_negative": "yes",
+                "padding": {
+                    "unit": "em",
+                    "top": "5",
+                    "right": "0",
+                    "bottom": "6",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "5",
+                    "right": "1",
+                    "bottom": "6",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "3",
+                    "right": "1",
+                    "bottom": "4",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": "globals\/colors?id=044b931",
+                    "shape_divider_bottom_color": "globals\/colors?id=cfa1f76"
+                }
+            },
+            "elements": [
+                {
+                    "id": "4b99048c",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "3660c1d7",
+                            "settings": {
+                                "title": "Blog",
+                                "header_size": "h1",
+                                "align_mobile": "center",
+                                "_animation": "fadeInUp",
+                                "_animation_delay": 200,
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=text"
+                                },
+                                "__dynamic__": {
+                                    "title": "[elementor-tag id=\"57a4880\" name=\"post-title\" settings=\"%7B%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "175f3d44",
+                            "settings": {
+                                "text": "Divider",
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 3,
+                                    "sizes": []
+                                },
+                                "_animation": "fadeIn",
+                                "_animation_delay": 200,
+                                "__globals__": {
+                                    "color": "globals\/colors?id=accent"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4e93c5cc",
+                            "settings": {
+                                "title": "Gardening is a step toward a healthy life.",
+                                "header_size": "h4",
+                                "align": "right",
+                                "align_mobile": "center",
+                                "_animation": "fadeInDown",
+                                "_animation_delay": 200,
+                                "__dynamic__": [],
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "2d72b064",
+            "settings": {
+                "padding": {
+                    "unit": "em",
+                    "top": "5",
+                    "right": "0",
+                    "bottom": "7",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "1",
+                    "right": "1",
+                    "bottom": "3",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "2",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "3fbf114a",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "7cc022ad",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 720,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "4a7e80c9",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "padding": {
+                                            "unit": "em",
+                                            "top": "2",
+                                            "right": "2",
+                                            "bottom": "2",
+                                            "left": "2",
+                                            "isLinked": true
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "em",
+                                            "top": "",
+                                            "right": "",
+                                            "bottom": "",
+                                            "left": "",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "em",
+                                            "top": "",
+                                            "right": "",
+                                            "bottom": "",
+                                            "left": "",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "1b4fa368",
+                                            "settings": {
+                                                "title": "Featured Capture",
+                                                "header_size": "h6",
+                                                "align": "center"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2d8c3d56",
+                                            "settings": {
+                                                "title": "Live your dream life, and start gardening.\n",
+                                                "align": "center"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "d1be3e5",
+                            "settings": {
+                                "gallery": [
+                                    {
+                                        "id": 565,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/gardener-working-in-a-garden.jpg"
+                                    },
+                                    {
+                                        "id": 427,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/big-garden-grass-field-mowing-by-caucasian-gardener.jpg"
+                                    },
+                                    {
+                                        "id": 316,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/happy-black-gardener-with-potted-flower-in-greenhouse.jpg"
+                                    },
+                                    {
+                                        "id": 311,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/pretty-gardener.jpg"
+                                    },
+                                    {
+                                        "id": 86,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/happy-caucasian-family-gardening-and-watering-plants-together.jpg"
+                                    },
+                                    {
+                                        "id": 71,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/women-working-inside-greenhouse-garden-nursery-and-spring-concept.jpg"
+                                    },
+                                    {
+                                        "id": 78,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/professional-landscape-gardening-services.jpg"
+                                    },
+                                    {
+                                        "id": 253,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/happy-multiracial-gardeners-having-fun-working-in-plants-and-flowers-garden-shop.jpg"
+                                    },
+                                    {
+                                        "id": 422,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/greenhouse-in-the-garden.jpg"
+                                    },
+                                    {
+                                        "id": 536,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/garden-fungicide-and-insecticide-equipment.jpg"
+                                    },
+                                    {
+                                        "id": 89,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/young-man-gardener-in-glasses-and-apron-with-digital-tablet-working-in-a-garden-center.jpg"
+                                    },
+                                    {
+                                        "id": 126,
+                                        "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/gardener-taking-an-order-by-phone.jpg"
+                                    }
+                                ],
+                                "galleries": [
+                                    {
+                                        "gallery_title": "New Gallery",
+                                        "_id": "e4b7a25"
+                                    }
+                                ],
+                                "columns_tablet": 3,
+                                "columns_mobile": 2,
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 21,
+                                    "sizes": []
+                                },
+                                "gap_tablet": {
+                                    "unit": "px",
+                                    "size": 21,
+                                    "sizes": []
+                                },
+                                "gap_mobile": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "aspect_ratio": "1:1",
+                                "thumbnail_image_size": "full",
+                                "show_all_galleries_label": "All"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "2ab6fa95",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 720,
+                    "sizes": []
+                },
+                "background_background": "classic",
+                "background_overlay_background": "classic",
+                "background_overlay_image": {
+                    "url": "https:\/\/newkit.moxcreative.com\/bakebun\/wp-content\/uploads\/sites\/35\/2022\/10\/pretty-gardener.jpg",
+                    "id": 311,
+                    "alt": "Pretty gardener",
+                    "source": "library"
+                },
+                "background_overlay_position": "center center",
+                "background_overlay_attachment": "fixed",
+                "background_overlay_repeat": "no-repeat",
+                "background_overlay_size": "cover",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.40000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "em",
+                    "top": "7",
+                    "right": "0",
+                    "bottom": "7",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "3",
+                    "right": "0",
+                    "bottom": "3",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": "globals\/colors?id=044b931"
+                }
+            },
+            "elements": [
+                {
+                    "id": "27df2fae",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "padding": {
+                            "unit": "em",
+                            "top": "2",
+                            "right": "2",
+                            "bottom": "2",
+                            "left": "2",
+                            "isLinked": true
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "animation": "zoomIn"
+                    },
+                    "elements": [
+                        {
+                            "id": "32a745b3",
+                            "settings": {
+                                "title": "Let\u2019s make the world a better place.",
+                                "header_size": "div",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=text",
+                                    "typography_typography": "globals\/typography?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "243bee23",
+                            "settings": {
+                                "align": "center",
+                                "__globals__": {
+                                    "text_color": "globals\/colors?id=text"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "c91d78",
+                            "settings": {
+                                "text": "Discover more",
+                                "align": "center",
+                                "size": "md",
+                                "selected_icon": {
+                                    "value": "mdi mdi-call-made",
+                                    "library": "skb_cife-materialdesign-icon"
+                                },
+                                "icon_align": "right",
+                                "icon_indent": {
+                                    "unit": "px",
+                                    "size": 7,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
